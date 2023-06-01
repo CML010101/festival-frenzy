@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Sigmar&display=swap');
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#landing_page_container{
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+#landing_page{
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh
+}
+
+#title{
+  font-family: Lilita One;
+  font-size: 200px;
+  color: #000000; /* Fallback for older browsers */
+  color: rgba(0,0,0,0.8);
+  -webkit-text-stroke: 5px white;
+}
+
+#inputs{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  
+  background-color: black;
+  background-color: rgba(0,0,0,0.8);
+  border: 2px solid white;
+  border-radius: 10px;
+
+  width: 400px;
+  padding: 12px 0px;
+}
+
+.input_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+
+  color: white;
+  font-size: 20px;
+}
+
+.input_field{
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 40px;
+  text-align: center;
+  height: 18px;
+}
+
+#start_button{
+  font-size: 20px;
+  font-weight: bold;
+  
+  border-radius: 12px;
+  border: 2px solid black;
+
+  background-color: rgba(255,255,255,0.9);
+  
+  width: 300px;
+  height: 60px;
+  padding: 8px 12px;
+}
+
+.banner{
+  display: flex;
+  width: 100%;
+  height: 25vh;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.banner_heading{
+  display: flex;
+  column-gap: 25px;
+  /* font-size: 40px; */
+  font-size: 2vw;
+  margin-bottom: 20px;
+  margin-left: 2vh;
+}
+
+.festival_number{
+  color: gold;
+}
+.festival_title{
+  color: white;
+}
+
+table tr:first-child th:first-child { border-top-left-radius: 8px; }
+table tr:first-child th:last-child { border-top-right-radius: 8px; }
+
+table tr:last-child td:first-child { border-bottom-left-radius: 8px; }
+table tr:last-child td:nth-last-child(2) { border-bottom-right-radius: 8px; }
+
+table tr td:first-child{
+  border-left: 1px solid rgba(56,56,56);
+}
+table tr td:nth-last-child(2){
+  border-right: 1px solid rgba(56,56,56);
+}
+table tr:last-child td:not(:last-child){
+  border-bottom: 1px solid rgba(56,56,56);
+}
+
+table{
+  /* width: 50vw; */
+  text-align: center;
+  border-spacing: 0;
+  margin: 20px;
+  /* height: 65vh; */
+  /* overflow-y: scroll; */
+  /* display: block; */
+}
+
+td,th{
+  height: 38px;
+}
+
+thead tr{
+  color: white;
+  background-color: rgba(56,56,56);
+}
+
+td{
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid#ddd;
+}
+
+td:nth-child(1){
+  width: 8.3vw
+}
+td:nth-child(2){
+  width: 8.3vw;
+}
+td:nth-child(3){
+  width: 16.6vw;
+}
+td:nth-child(4){
+  width: 16.6vw;
+}
+
+
+.team_row input{
+  display: block;
+  font-size: 18px;
+  height: 40px;
+  border: none;
+  /* width: 60px; */
+  width: 90%;
+  text-align: center;
+  font-weight: bold;
+  outline: none;
+}
+
+h1,h2,h3,h4,h5{
+  margin: 0;
+}
+
+.forecast{
+  display: flex;
+  background-color: rgba(0,0,0,0.8);
+  padding: 8px;
+  column-gap: 8px;
+  justify-content: center;
+  width: fit-content;
+  border: 4px solid white;
+  border-radius: 5px;
+
+  margin-right: 2vh;
+}
+
+.forecast_tile{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  row-gap: 8px;
+}
+
+.weather_img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding:8px;
+}
+
+.weather_img img{
+  width: 50px;
+}
+
+.modal{ 
+  position: fixed;
+  background-color: rgba(0,0,0,0.6);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.die_container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.die_container img{
+  width: 300px;
+  user-select: none;
+}
+
+.icon_buttons{
+  position: absolute;
+  display: flex;
+  right: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+  /* flex-direction: column; */
+}
+
+.icon_button{
+  width: 70px;
+  height: 70px;
+}
+
+.icon_button2{
+  width: 60px;
+  height: 55px;
+}
+
+.festival_body{
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast_and_arrow{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  column-gap: 10px;
+}
+
+.next_arrow_container{
+  width: 50px;
+}
+
+.next_arrow_container input{
+  width: 100%;
+  height: auto;
+}
+
+.stats_modal{
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding:40px 80px;
+  border-radius: 20px;
+}
+
+.leaderboard_modal{
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding:40px 80px;
+  border-radius: 20px;
+}
+
+.leaderboard_heading{
+  display: flex;
+  align-items: center;
+}
+.leaderboard_heading img{
+  width: 60px;
+  padding: 20px;
+}
+
+.weather_probability{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 40px;
+  margin-top:40px;
+}
+
+.stats_modal img{
+  width: 150px;
+}
+
+.close_icon {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 30px;
+}
+
+.products{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 100%;
+}
+
+.wellies{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0;
+}
+
+.wellies img{
+  width:250px;
+}
+
+.sunglasses{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0;
+}
+
+.sunglasses img{
+  width: 250px;;
+}  
+
+  .price_tag{
+    position: relative;
+  }
+  
+.price_tag img{
+    width: 160px;
+    aspect-ratio: 1.6;
+  }
+  
+.price_tag h1{
+    position: absolute;
+    top: 47.5%;
+    left: 50%;
+    color: white;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+  }
+
+  .sell_prices_text{
+    margin-top: 20px;
+    font-family: Lilita One;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+
+  .weather_price{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+
+  .weather_price img{
+    width: 60px;
+  }
+
+  .sell_prices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+  }
+
+.remaining_qty{
+  background-color: white;
+  border: none;
+  border-bottom-color: gold;
+  color: rgba(80,80,80,0.3);
+  font-size: 18px;
+  padding-left: 8px;
+  width: 25px;
+  max-width: 25px;
+}
+
+.leaderboard{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  
+  
+}
+
+.leaderboard li{
+  list-style-type: none;
+}
+
+.leaderboard h1{
+  font-size: 50px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
