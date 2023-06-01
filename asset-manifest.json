@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/festival-frenzy/static/css/main.1573cb94.css",
-    "main.js": "/festival-frenzy/static/js/main.6fd134dd.js",
+    "main.js": "/festival-frenzy/static/js/main.a2d5fc93.js",
     "static/js/787.d1268ea7.chunk.js": "/festival-frenzy/static/js/787.d1268ea7.chunk.js",
     "static/media/crowd_background.jpeg": "/festival-frenzy/static/media/crowd_background.47e1d75b825da735bb89.jpeg",
     "static/media/womad.jpeg": "/festival-frenzy/static/media/womad.797172e92d0e9546ddba.jpeg",
@@ -38,11 +38,11 @@
     "static/media/logo.svg": "/festival-frenzy/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/festival-frenzy/index.html",
     "main.1573cb94.css.map": "/festival-frenzy/static/css/main.1573cb94.css.map",
-    "main.6fd134dd.js.map": "/festival-frenzy/static/js/main.6fd134dd.js.map",
+    "main.a2d5fc93.js.map": "/festival-frenzy/static/js/main.a2d5fc93.js.map",
     "787.d1268ea7.chunk.js.map": "/festival-frenzy/static/js/787.d1268ea7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1573cb94.css",
-    "static/js/main.6fd134dd.js"
+    "static/js/main.a2d5fc93.js"
   ]
 }
