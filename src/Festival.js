@@ -431,7 +431,7 @@ function DiceModal({ onFinish }) {
   // }
 
   async function roll_die() {
-    const maxIterations = 2;
+    const maxIterations = 30;
     const currentIteration = dies[2];
     console.log(currentIteration);
     if (currentIteration < maxIterations) {
